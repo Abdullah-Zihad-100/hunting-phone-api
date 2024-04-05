@@ -35,7 +35,7 @@
                     <p class="py-6">There are many variations of passages of Lorem Ipsum available, but the majority
                         have suffered alteration in some form,
                         by injected humou.</p>
-                    <button class="btn  text-white bg-[#0D6EFD]">Bye Now</button>
+                    <button class="btn  text-white bg-[#0D6EFD]"><a href="#bye-now">Bye Now</a></button>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
         <section class="p-4 m-4 text-center flex items-center justify-center">
             <input id="search-field" type="text" placeholder="Search your phone"
                 class="focus:outline-none border-none h-14 input w-full rounded-xs -m-2 max-w-xl bg-gray-100" />
-            <button onclick="handelSearch()" class="h-14 px-8 btn text-white bg-[#0D6EFD]">Search</button>
+            <button id="bye-now" onclick="handelSearch()" class="h-14 px-8 btn text-white bg-[#0D6EFD]">Search</button>
         </section>
 
         <!-- spinner or loader -->
@@ -68,7 +68,7 @@
 
             </div>
             <div onclick="handleShowAll()" class="hidden my-10 text-center" id="show-all-container">
-                <button class="btn bg-sky-500">Show All</button>
+                <button class="btn bg-[#0D6EFD] text-white">Show All</button>
             </div>
         </section>
 
@@ -96,6 +96,7 @@
 
 
     </main>
+    <br> <br>
 
 
     <footer class="ps-10 container bg-gray-100 mx-auto">
